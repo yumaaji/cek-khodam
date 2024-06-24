@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="min-h-screen flex items-center justify-center" style={{backgroundImage: 'url("face.jpg")', backgroundPosition: 'center', backgroundRepeat: 'repeat', backgroundSize: 'auto 100%'}}>
 
-      <div className="bg-white opacity-80 p-8 mx-4 rounded-xl shadow-lg max-w-md w-full sm:w-96">
+      <div className="bg-white p-8 mx-4 rounded-xl shadow-lg max-w-md w-full sm:w-96">
         <h1 className="text-3xl font-bold mb-6 text-center text-purple-800">⭐Cek Khodam⭐</h1>
         <form onSubmit={handleSubmit}>
           <input
